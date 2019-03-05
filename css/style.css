@@ -8,6 +8,7 @@ header{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
 }
 .right{
     float: right;
@@ -15,9 +16,35 @@ header{
     margin-left: 30px;
 }
 nav{
-    margin-top: 20px;
-    padding-bottom: 20px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 60px;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+ul.menu{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+a{
+    display:block;
+    width:auto;
+    height:20px;
+    text-indent:5px;
+    float:left;
+    text-align:center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+	color: #067aa7;
+    text-decoration: none;
+}
+a:hover{
+	color: #00719d;
+	text-decoration: none;
+    background: #c8e6ed;
 }
