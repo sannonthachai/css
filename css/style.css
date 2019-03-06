@@ -28,7 +28,7 @@ ul.menu{
     margin:0px;
     padding:0px;
 }
-a{
+.menu a{
     display:block;
     width:auto;
     height:20px;
@@ -43,7 +43,12 @@ a{
 	color: #067aa7;
     text-decoration: none;
 }
-a:hover , .active{
+.menu a:hover{
+    border-bottom: 5px solid #df8958;
+	color: #df8958;
+	text-decoration: none;
+}
+.menu .active{
     border-bottom: 5px solid #df8958;
 	color: #df8958;
 	text-decoration: none;
