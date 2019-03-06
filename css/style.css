@@ -23,7 +23,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-ul.menu{
+.menu{
     list-style:none;
     margin:0px;
     padding:0px;
@@ -53,12 +53,26 @@ ul.menu{
 	color: #df8958;
 	text-decoration: none;
 }
-.picslide{
-    margin-top: 60px;
+#picslide{
+    margin: 50px auto;
     padding-bottom: 15px;
     width: 960px;
     height: 440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
+    overflow: hidden;
+}
+#picslide ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 4800px;
+}
+#picslide ul li{
+    float: left;
+}
+.button{
+    display: inline-block;
+    border: 2px solid #df8958;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
 }
