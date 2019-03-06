@@ -53,3 +53,12 @@ ul.menu{
 	color: #df8958;
 	text-decoration: none;
 }
+.picslide{
+    margin-top: 60px;
+    padding-bottom: 15px;
+    width: 960px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
