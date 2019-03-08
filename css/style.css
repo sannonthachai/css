@@ -71,7 +71,7 @@ nav{
     width: 960px;
     height: 440px;
 }
-.slider-inner img.active{
+.slider-inner img.activep{
     display: inline-block;
 }
 .prev , .next{
