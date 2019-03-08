@@ -1,21 +1,26 @@
-$(document).ready(function(){
-    $('.next').on('click',function(){
-        var currentImg = $('.activep');
-        var nextImg = currentImg.next();
+var slideIndex = 1;
+showSlides(slideIndex);
 
-        if (nextImg.length){
-            currentImg.removeClass('activep').css('z-index', -10);
-            nextImg.addClass('activep').css('z-index', 10);
-        }
-    });
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-    $('.prev').on('click',function(){
-        var currentImg = $('.activep');
-        var prevImg = currentImg.prev();
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-        if (prevImg.length){
-            currentImg.removeClass('activep').css('z-index', -10);
-            prevImg.addClass('activep').css('z-index', 10);
-        }
-    });
-});
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activep", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activep";
+}

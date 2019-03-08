@@ -53,45 +53,75 @@ nav{
 	color: #df8958;
 	text-decoration: none;
 }
-.view{
-    width: 1020px;
+.slideshow-container {
+    width: 960px;
     margin: 40px auto;
     overflow: auto;
-}
-.slider-inner{
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .activep, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  .slider-inner{
     width: 960px;
     height: 440px;
     position: relative;
     overflow: hidden;
     float: left;
-    padding: 3px;
-}
-.slider-inner img{
-    display: none;
-    width: 960px;
-    height: 440px;
-}
-.slider-inner img.activep{
-    display: inline-block;
-}
-.prev , .next{
-    float: left;
-    margin-top: 200px;
-    cursor: pointer;
-}
-.prev{
-    position: relative;
-    margin-right: -45px;
-    z-index: 100;
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-}
-.next{
-    position: relative;
-    margin-left: -45px;
-    z-index: 500;
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
 }
