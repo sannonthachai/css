@@ -84,10 +84,14 @@ nav{
     margin-right: -45px;
     z-index: 100;
     border-radius: 100%;
+    width: 70px;
+    height: 70px;
 }
 .next{
     position: relative;
     margin-left: -45px;
     z-index: 500;
     border-radius: 100%;
+    width: 70px;
+    height: 70px;
 }
