@@ -1,4 +1,4 @@
-header{
+.header{
     margin-top: 60px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
@@ -7,7 +7,7 @@ header{
     margin-right: auto;
     padding-bottom: 20px;
 }
-.right{
+.header .right{
     float: right;
     margin-left: 30px;
 }
@@ -41,8 +41,8 @@ nav{
 }
 .menu a:hover{
     border-bottom: 5px solid #df8958;
-	color: #df8958;
-	text-decoration: none;
+	  color: #df8958;
+	  text-decoration: none;
 }
 .menu .active{
     border-bottom: 5px solid #df8958;
