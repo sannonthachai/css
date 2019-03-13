@@ -125,16 +125,18 @@ nav{
     from {opacity: .4} 
     to {opacity: 1}
   }
+  h1 , .sub2{
+    font-family: Kanit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
   h1{
     text-align: center;
-    font-family: Kanit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.2;
   }
   .mush2{
     width: 960px;
-    height: 200px;
+    height: 190px;
     margin: 20px auto;
     background-color: rgb(223, 235, 230);
   }
@@ -143,11 +145,18 @@ nav{
     width: 945px;
     margin: 0 auto;
   }
-  .mush3 .sub{
-    position: relative;
+  .mush3 a{
+    width: 115px;
+    height: 165px;
     margin: 25px 10px;
     float: left;
+    text-decoration: none;
   }
   .mush3 img{
     border-radius: 5px 5px 5px 5px;
+  }
+  .sub2{
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
   }
