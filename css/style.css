@@ -153,7 +153,16 @@ nav{
     float: left;
     text-decoration: none;
   }
-  .mush3 img{
+  .mush3 a .middle{
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    border-radius: 2px 2px 2px 2px;
+    margin-top: 45px;
+    margin-left: 45px;
+  }
+  .mush3 a .sub{
+    position: absolute;
     border-radius: 5px 5px 5px 5px;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -166,7 +175,8 @@ nav{
     opacity: 1;
   }
   .sub2{
+    position: relative;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 125px;
     color: #000000;
   }
