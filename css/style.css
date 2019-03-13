@@ -125,3 +125,16 @@ nav{
     from {opacity: .4} 
     to {opacity: 1}
   }
+  h1{
+    text-align: center;
+    font-family: Kanit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .mush2{
+    width: 960px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: rgb(223, 235, 230);
+  }
