@@ -138,3 +138,16 @@ nav{
     margin: 20px auto;
     background-color: rgb(223, 235, 230);
   }
+  .mush3{
+    position: relative;
+    width: 945px;
+    margin: 0 auto;
+  }
+  .mush3 .sub{
+    position: relative;
+    margin: 25px 10px;
+    float: left;
+  }
+  .mush3 img{
+    border-radius: 5px 5px 5px 5px;
+  }
