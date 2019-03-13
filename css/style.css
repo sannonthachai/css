@@ -21,6 +21,7 @@
   border-radius: 15px 15px 15px 15px;
   text-decoration: none;
   color: #000000;
+  transition: .3s ease;
 }
 .butt:hover{
   color: #df8958;
