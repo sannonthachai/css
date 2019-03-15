@@ -202,3 +202,26 @@ nav{
     right: 20px;
     top: 10px;
   }
+  .cursor{
+    cursor: pointer;
+  }
+  .test .left2{
+    float: left;
+    margin: 10px 15px;
+  }
+  .test .left3{
+    float: left;
+    margin: 15px 3px;
+  }
+  .dot2 {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .activep, .dot2:hover {
+    background-color: #fd5d00;
+  }
