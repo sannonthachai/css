@@ -1,4 +1,5 @@
 var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
 var slideIndex = slides.length;
 autoSlides();
 
@@ -12,7 +13,6 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   if (slideIndex > slides.length) {slideIndex = 1}  
@@ -28,5 +28,5 @@ function showSlides(n) {
 
 function autoSlides(){
   showSlides(slideIndex++);
-  setTimeout(autoSlides,6000);
+  setTimeout(autoSlides,8000);
 }
