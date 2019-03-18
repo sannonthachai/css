@@ -215,7 +215,7 @@ nav{
     height: 350px;
     border: 2px solid #c90606;
     border-radius: 10px 10px 10px 10px;
-    border-top-width: 15px;
+    border-top-width: 20px;
   }
   .blockleft{
     float: left;
@@ -223,5 +223,5 @@ nav{
   }
   .blockcenter{
     width: 890px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
