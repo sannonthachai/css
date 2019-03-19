@@ -27,6 +27,16 @@ input[type=submit]:hover {
             
 div {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
+}
+.logo-detail{
+    text-align: center;
+}
+h3{
+    position: relative;
+    margin-left: 60px;
+    top: -10px;
+}
+i{
+    position: absolute;
 }
