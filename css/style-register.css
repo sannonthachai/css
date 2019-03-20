@@ -14,7 +14,7 @@ input[type=text] {
               box-sizing: border-box;
 }
 select{
-    width: 40%;  
+    width: 25%;  
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -26,7 +26,7 @@ select{
     text-align: center;
 }
 input[type=text].age-d{
-    width: 40%;
+    width: 25%;
 }
 input[type=submit] {
               width: 20%;
