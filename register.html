@@ -22,9 +22,9 @@
         <h3>กรุณากรอกข้อมูลดังนี้</h3>
         <form action="/action_page.php">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." maxlength="20">
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." maxlength="20">
             <label for="sex">Sex</label>
             <select id="sex" name="sex">
                 <option value="null"></option>
@@ -32,13 +32,13 @@
                 <option value="female">Female</option>
             </select>
             <label for="age">Age</label>
-            <input class="age-d" type="text" id="age" name="age" placeholder="Your age..">
+            <input class="age-d" type="text" id="age" name="age" placeholder="Your age.." maxlength="2">
             <label class="div" for="pnumber">Phone Number</label>
-            <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number..">
+            <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number.." maxlength="10">
             <label for="email">E-Mail</label>
-            <input type="text" id="email" name="email" placeholder="E-Mail">
+            <input type="text" id="email" name="email" placeholder="E-Mail" maxlength="35">
             <label for="address">Address</label>
-            <input type="text" id="address" name="address" placeholder="Your address">
+            <input type="text" id="address" name="address" placeholder="Your address" maxlength="35">
             <label class="div" for="province">Province</label>
             <select id="province" name="province">
                 <option>- Province -</option>
@@ -52,13 +52,13 @@
                 <option>- District -</option>
             </select> 
             <label class="div" for="postcode">Postcode</label> 
-            <input class="age-d" type="text" id="postcode" name="postcode" placeholder="Postcode">
+            <input class="age-d" type="text" id="postcode" name="postcode" placeholder="Postcode" readonly="readonly">
             <label class="div" for="id">ID</label>
-            <input type="text" id="id" name="ID" placeholder="ID">
+            <input type="text" id="id" name="ID" placeholder="ID" maxlength="15">
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="password" id="password" name="password" placeholder="Password" maxlength="15">
             <label for="re-password">Password</label>
-            <input type="password" id="re-password" name="re-password" placeholder="Password">
+            <input type="password" id="re-password" name="re-password" placeholder="Password" maxlength="15">
             <div class="sub-d">
                 <input type="submit" value="Submit">
             </div>
