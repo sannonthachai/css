@@ -111,17 +111,17 @@ nav{
   }
 
   body{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Slab' , 'Prompt', sans-serif;
   }
   h1{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Slab' , 'Prompt', sans-serif;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.2;
   }
   h3{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Slab' , 'Prompt', sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
   }
