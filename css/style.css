@@ -170,14 +170,14 @@ nav{
   }
   .promotion{
     width: 960px;
-    height: 500px;
+    height: 430px;
     margin: 40px auto;
   }
-  .promotion .sub_pro{
+  .sub_pro{
     position: relative;
     margin: 0px 50px;
   }
-  .promotion .sub_pro .left{
+  .left{
     float: left;
     margin-right: 10px;
   }
@@ -189,11 +189,11 @@ nav{
   .cursor{
     cursor: pointer;
   }
-  .test .left2{
+  .left2{
     float: left;
     margin: 10px 15px;
   }
-  .test .left3{
+  .left3{
     float: left;
     margin: 15px 3px;
   }
@@ -223,5 +223,11 @@ nav{
   }
   .blockcenter{
     width: 890px;
-    margin: 30px auto;
+    margin: 20px auto;
+  }
+
+  .blockasia{
+    width: 250px;
+    height: 350px;
+    border: 1px solid #ccc8c8;
   }
