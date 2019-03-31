@@ -17,7 +17,7 @@
 
         $sql="UPDATE employee1 SET nname = '$nname',sex = '$sex',age = '$age',pnumber = '$pnumber',email = '$email',id = '$id',pass = '$pass' WHERE pass = '$opass'";
         require("mysql/connect.php");
-        $result=mysql_query($sql);
+        $result=mysqli_query($conn,$sql);
 
         if($result==1){
             $v1=1;

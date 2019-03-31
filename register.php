@@ -15,6 +15,21 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     </head>
     <body>
+    <?php if(isset($_GET['nname'])){
+        $nname=$_GET['nname'];
+        require("emp_select.php");
+        $action="emp_update.php";
+    }else{
+        $nname="";
+        $sex="";
+        $age="";
+        $pnumber="";
+        $email="";
+        $id="";
+        $pass="";
+        $action="emp_insert.php";
+    }
+    ?>
         <div class="logo-detail">
             <img src="picture/logo.jpg" />
         </div>
@@ -67,6 +82,9 @@
             </div>
         </form>
         </div>   
+    <script type="text/javascript">
+    document.getElementById('sex').value="<?php echo($sex);?>";
+    </script>
     <script src="js/jquery.js" type="text/javascript"></script>
     </body>
 </html>

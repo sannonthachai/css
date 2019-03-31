@@ -10,7 +10,7 @@
 
         $sql="DELETE FROM employee1 WHERE id = '$eid'";
         require("mysql/connect.php");
-        $result=mysql_query($sql);
+        $result=mysqli_query($conn,$sql);
 
         if($result==1){
             $v1=1;

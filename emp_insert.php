@@ -16,7 +16,7 @@
 
         $sql="INSERT INTO employee1(nname,sex,age,pnumber,email,id,pass) VALUES ('$nname','$sex','$age','$pnumber','$email','$id','$pass')";
         require("mysql/connect.php");
-        $result=mysql_query($sql);
+        $result=mysqli_query($conn,$sql);
 
         if($result==1){
             $v1=1;

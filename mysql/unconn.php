@@ -1,4 +1,4 @@
 <?php
-mysql_close();
-unset($sql,$result,$record);
+mysqli_close($conn);
+unset($sql,$result,$record,$conn);
 ?>

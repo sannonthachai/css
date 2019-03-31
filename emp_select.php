@@ -1,8 +1,8 @@
 <?php
 $sql="SELECT * FROM employee1 WHERE id = '$id'";
 require("mysql/connect.php");
-$result = mysql_query($sql);
-$record = mysql_fetch_array($result);
+$result = mysqli_query($conn,$sql);
+$record = mysqli_fetch_array($result);
 
 $nname=$record[0];
 $sex=$record[1];

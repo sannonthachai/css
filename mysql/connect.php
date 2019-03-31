@@ -1,5 +1,4 @@
 <?php
-mysql_connect($dbhost,$dbuser,$dbpass);
-mysql_select_db($dbname);
-mysql_query("SET NAMES utf8");
+$conn=mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+mysqli_query($conn,"SET NAMES utf8");
 ?>
