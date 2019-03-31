@@ -32,7 +32,7 @@
         var v1=<?php echo($v1);?>;
         if(v1==1){
             alert("การบันทึกข้อมูลเสร็จสิ้น");
-            window.location.replace("");
+            window.location.replace("?nname=<?php echo($nname);?>");
         }
         else{
             alert("การบันทึกข้อมูลผิดพลาด");
