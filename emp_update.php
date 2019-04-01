@@ -1,4 +1,4 @@
-<?php require("mysql/config.php")?>
+<?php require("mysql/config.php");?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="th">
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" charset="utf-8"/>

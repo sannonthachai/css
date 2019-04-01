@@ -38,11 +38,11 @@
         <h3>กรุณากรอกข้อมูลดังนี้</h3>
         <form action="<?php echo($action);?>" method="POST" target="_self">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name.." maxlength="20">
+            <input type="text" id="fname" name="fname" placeholder="Your name.." maxlength="20">
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.." maxlength="20">
+            <input type="text" id="lname" name="lname" placeholder="Your last name.." maxlength="20">
             <label for="nname">Nick Name</label>
-            <input type="text" id="nname" name="nickname" placeholder="Your nickname.." maxlength="10" value="<?php echo($nname)?>">
+            <input type="text" id="nname" name="nname" placeholder="Your nickname.." maxlength="10" value="<?php echo($nname)?>">
             <label for="sex">Sex</label>
             <select id="sex" name="sex">
                 <option value="null"></option>
@@ -52,7 +52,7 @@
             <label for="age">Age</label>
             <input class="age-d" type="text" id="age" name="age" placeholder="Your age.." maxlength="2">
             <label class="div" for="pnumber">Phone Number</label>
-            <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number.." maxlength="10">
+            <input type="text" id="pnumber" name="pnumber" placeholder="Your phone number.." maxlength="10">
             <label for="email">E-Mail</label>
             <input type="text" id="email" name="email" placeholder="E-Mail" maxlength="35">
             <label for="address">Address</label>
@@ -72,11 +72,11 @@
             <label class="div" for="postcode">Postcode</label> 
             <input class="age-d" type="text" id="postcode" name="postcode" placeholder="Postcode" readonly="readonly">
             <label class="div" for="id">ID</label>
-            <input type="text" id="id" name="ID" placeholder="ID" maxlength="15">
+            <input type="text" id="id" name="id" placeholder="ID" maxlength="15">
             <label for="pass">Password</label>
-            <input type="password" id="pass" name="password" placeholder="Password" maxlength="15">
+            <input type="password" id="pass" name="pass" placeholder="Password" maxlength="15">
             <label for="re-pass">Confirm Password</label>
-            <input type="password" id="re-pass" name="re-password" placeholder="Password" maxlength="15">
+            <input type="password" id="re-pass" name="re-pass" placeholder="Password" maxlength="15">
             <div class="sub-d">
                 <input type="submit" value="Submit">
             </div>
