@@ -46,8 +46,8 @@
             <label for="sex">Sex</label>
             <select id="sex" name="sex">
                 <option value="null"></option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
             </select>
             <label for="age">Age</label>
             <input class="age-d" type="text" id="age" name="age" placeholder="Your age.." maxlength="2">
