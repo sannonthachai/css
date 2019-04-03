@@ -11,9 +11,9 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides() {
   var i;   
-  if (n < 1) {slideIndex = slides.length}
+  if (slideIndex < 1) {slideIndex = slides.length}
   if (slideIndex > slides.length) {slideIndex = 1}  
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
